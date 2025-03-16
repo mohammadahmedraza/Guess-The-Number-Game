@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guess Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Guess the Number Game</h1>
+        
+        <div class="hearts">
+            <p>❤️ ❤️ ❤️</p> Display lives here
+        </div>
+
+        <div class="game-info">
+            <p>Guess a number between 1 and 100:</p>
+            <input type="number" id="guess" min="1" max="100" placeholder="Enter a number" />
+            <button onclick="Submit Guess" id="submit-guess">Submit Guess</button>
+        </div>
+        
+        <div id="message" class="message"></div>
+        
+        <div id="game-over" class="game-over">
+            <p>😞 Game Over! You lost all lives.</p>
+            <button  onclick="Restart Game"id="restart-button">Restart Game</button>
+        </div>
+    </div>
+</body>
+</html>

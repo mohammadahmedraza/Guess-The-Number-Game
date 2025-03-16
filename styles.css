@@ -1,0 +1,4 @@
+    /* You can style the game here */
+    .game-container { text-align: center; }
+    .message { margin-top: 20px; font-weight: bold; }
+    /* .game-over { display: none; } */
